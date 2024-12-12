@@ -37,7 +37,7 @@ def build_model(input_data):
 # Logo image
 image = Image.open('logo.png')
 
-st.image(image, use_column_width=True)
+st.image(image, use_container_width=True)
 
 # Page title
 st.markdown("""
@@ -55,7 +55,7 @@ This app allows you to predict the bioactivity towards inhibting the `MALT1` enz
 with st.sidebar.header('1. Upload your CSV data'):
     uploaded_file = st.sidebar.file_uploader("Upload your input file", type=['txt'])
     st.sidebar.markdown("""
-[Example input file](https://raw.githubusercontent.com/dataprofessor/bioactivity-prediction-app/main/example_MALT1.txt)
+[Example input file](https://raw.githubusercontent.com/nafamubarokhusni/MALT1-bioactivity-prediction-app/master/example_MALT1.txt)
 """)
 
 if st.sidebar.button('Predict'):
