@@ -1,6 +1,4 @@
 streamlit
 pandas
-base58
-subprocess
 os
 pickle
