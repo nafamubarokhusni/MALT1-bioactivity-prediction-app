@@ -42,11 +42,16 @@ st.image(image, use_container_width=True)
 # Page title
 st.markdown("""
 # Bioactivity Prediction App (MALT1)
-
+## Daftar Anggota
+1. Nama: Husni Na'fa Mubarok, NIM: 121450078
+2. Nama: Meliza Wulandari, NIM: 121450065
+3. Nama: Yosia Gilbert Wuaten, NIM: 118140174
+4. Nama: Dwi Nur Saleh, NIM: 120410090
+5. Nama: Nazwa Nabilla, NIM: 121450122
 This app allows you to predict the bioactivity towards inhibting the `MALT1` enzyme. `MALT1` is a drug target for Lymphoma and autoimmune disease.
 
 **Credits**
-- App built in `Python` + `Streamlit` by [Chanin Nantasenamat](https://medium.com/@chanin.nantasenamat) (aka [Data Professor](http://youtube.com/dataprofessor))
+- App built in `Python` + `Streamlit`
 - Descriptor calculated using [PaDEL-Descriptor](http://www.yapcwsoft.com/dd/padeldescriptor/) [[Read the Paper]](https://doi.org/10.1002/jcc.21707).
 ---
 """)
