@@ -42,12 +42,15 @@ st.image(image, use_container_width=True)
 # Page title
 st.markdown("""
 # Bioactivity Prediction App (MALT1)
-## Daftar Anggota
-1. Nama: Husni Na'fa Mubarok, NIM: 121450078
-2. Nama: Meliza Wulandari, NIM: 121450065
-3. Nama: Yosia Gilbert Wuaten, NIM: 118140174
-4. Nama: Dwi Nur Saleh, NIM: 120410090
-5. Nama: Nazwa Nabilla, NIM: 121450122
+# Team Members
+
+| Nama                  | NIM        |
+|-----------------------|------------|
+| Husni Na'fa Mubarok   | 121450078  |
+| Meliza Wulandari      | 121450065  |
+| Yosia Gilbert Wuaten  | 118140174  |
+| Dwi Nur Saleh         | 120410090  |
+| Nazwa Nabilla         | 121450122  |
 
 This app allows you to predict the bioactivity towards inhibting the `MALT1` enzyme. `MALT1` is a drug target for Lymphoma and autoimmune disease.
 
